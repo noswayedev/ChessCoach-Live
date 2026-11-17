@@ -1,0 +1,12 @@
+CHESS COACH LIVE — UPLOAD TO GITHUB
+
+1. On GitHub click New repository, e.g. ChessCoach-Live.
+2. Upload ALL contents of this folder (keep .github/workflows/build-windows.yml).
+3. Commit to main.
+4. In Actions, select Build Windows EXE > Run workflow.
+5. Open the completed workflow run > Artifacts > ChessCoachLive-Windows-x64.
+6. Download and unzip to retrieve ChessCoachLive.exe.
+
+Engine is compressed in stockfish/stockfish-engine.zip to allow GitHub upload.
+Never upload the extracted stockfish.exe (it exceeds the 100 MB web upload limit).
+The binary is not code-signed, so Windows SmartScreen may show a warning.
