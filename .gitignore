@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+# Built outputs
+build/
+dist/
+*.spec
+# Unpacked engine (the compressed engine is committed)
+stockfish/stockfish.exe
+.DS_Store
